@@ -17,6 +17,22 @@ function App() {
 
   useEffect(loadData, []);
 
+  function addItem(item, quantity) {
+    fetch("https://knsx75-8080.csb.app/api/list/new", { 
+      method: "POST", 
+      body: JSON.stringify({ 
+        item, 
+        quantity 
+      }), 
+      headers: { 
+        "Content-type": "application/json; charset=UTF-8", 
+      }, 
+      mode: "cors" 
+    }) 
+      .then(x => x.json()) 
+      .then(loadData); 
+  }
+
   return ( 
     <div className="App"> 
       <header className="App-header"> 
@@ -24,7 +40,7 @@ function App() {
       </header> 
 
       <main>
-        <ShoppingForm />
+        <ShoppingForm addItem={addItem} />
         <ShoppingList items={shoppingList} />
       </main> 
     </div> 
