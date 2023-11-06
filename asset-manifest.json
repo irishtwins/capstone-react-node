@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/capstone-react-node/static/css/main.964fdded.css",
+    "main.js": "/capstone-react-node/static/js/main.fcc3c602.js",
+    "index.html": "/capstone-react-node/index.html",
+    "main.964fdded.css.map": "/capstone-react-node/static/css/main.964fdded.css.map",
+    "main.fcc3c602.js.map": "/capstone-react-node/static/js/main.fcc3c602.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.964fdded.css",
+    "static/js/main.fcc3c602.js"
+  ]
+}
