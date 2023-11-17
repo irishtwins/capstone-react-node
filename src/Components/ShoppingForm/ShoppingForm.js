@@ -5,6 +5,7 @@ export default function ShoppingForm ({
     submitButtonText = "Add",
     defaultItemName = "",
     defaultQuantity = "",
+    className="form-add"
 }) {
     const [item, setItem] = useState(defaultItemName);
     const [num, setNum] = useState(defaultQuantity); // quantity
@@ -25,12 +26,18 @@ export default function ShoppingForm ({
     }
 
   return (
-    <form action="#" method="POST" onSubmit={handleSubmit}> 
-        <label htmlFor="item"></label>
-        <input type="text" id="item" name="item" value={item} onChange={handleItemChange} required />
-        <label htmlFor="quantity"></label>
-        <input type="number" id="quantity" name="quantity" value={num} onChange={handleQuantityChange} required />
-        <button type="submit">{submitButtonText}</button>
+    <form action="#" method="POST" className= {className} onSubmit={handleSubmit}> 
+        <div className='form-row'>
+            <label htmlFor="item">Item Name</label>
+            <input className='item-name' type="text" id="item" value={item} pattern=".*[^ ].*" onChange={handleItemChange} required />
+        </div>
+
+        <div className='form-row'>
+            <label htmlFor="quantity"> Quantity </label>
+            <input className='quantity' type="number" id="quantity" value={num} onChange={handleQuantityChange} required />
+        </div>
+        
+        <button className='submit-button' type="submit">{submitButtonText}</button>
     </form> 
   );
 }
