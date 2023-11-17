@@ -4,7 +4,9 @@ Hosted on https://irishtwins.github.io/capstone-react-node
 
 Server: https://codesandbox.io/p/sandbox/fast-leaf-knsx75
 
-User Stories
+This application is used to allow others access to a digital shopping list in which they can manage and organize on their digital devices.
+
+# User Stories
 
 AS A student
 I WANT TO teach others how to create a digital shopping list
