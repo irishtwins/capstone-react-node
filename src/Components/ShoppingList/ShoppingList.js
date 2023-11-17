@@ -27,6 +27,7 @@ function ShoppingItem({ id, itemName, quantity, deleteItem, updateItem }) {
 
     const EditJsx = (
         <ShoppingForm
+            className="form-edit"
             submitItem={handleUpdate}
             submitButtonText="Update"
             defaultItemName={itemName}
@@ -37,10 +38,10 @@ function ShoppingItem({ id, itemName, quantity, deleteItem, updateItem }) {
     return (
         <li>
             {isEdit ? EditJsx : ReadOnlyJsx}
-            <button onClick={handleDelete} disabled={isEdit}>
-                Delete
-            </button>
-            <button onClick={handleEdit}>{isEdit ? "Cancel" : "Edit"}</button>
+            <div className='shopping-list-buttons'>
+                <button className='cancel-edit-button' onClick={handleEdit}>{isEdit ? "CANCEL" : "EDIT"}</button>
+                <button className='delete-button' onClick= {handleDelete} hidden={isEdit}>DELETE</button>
+            </div>
         </li>
     );
 }
