@@ -5,8 +5,7 @@
 }
 
 main {
-  font-family: 'Nunito', sans-serif;
-  display: grid;
+  font-family: 'Courier New', Courier, monospace;
   grid-template-columns: 30% 70%;
   overflow-wrap: break-word;
   margin: 15px;
@@ -28,22 +27,22 @@ li {
 /***** Main Styles ******/
 
 .App-header {
-  font-family: 'Edu TAS Beginner', cursive;
+  font-family: 'Courier New', Courier, monospace;
   font-stretch: semi-expanded;
   font-size: 35px;
   text-align: center;
   margin: 50px 0 0 0;
   text-decoration: underline darkgray 2.5px;
-  text-shadow: 0 0 5px #556b2f, 0 0 10px #556b2f, 0 0 5px #556b2f, 0 0 10px #556b2f, 0 0 5px #556b2f98, 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF
+  text-shadow: 0 0 5px #000000, 0 0 10px #000000, 0 0 5px #000000, 0 0 10px #000000, 0 0 5px #00000098, 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF
 }
 
 .App-footer {
-  font-family: 'Edu TAS Beginner', cursive;
+  font-family: 'Courier New', Courier, monospace;
   font-stretch: semi-expanded;
   text-align: end;
   font-size: 20px;
   margin: 50px;
-  text-decoration: underline darkgray 1px;
+  text-decoration: underline rgb(0, 0, 0) 1px;
 }
 
 .shopping-list-buttons {
@@ -61,12 +60,12 @@ li {
 .delete-button {
   background-color: rgb(181, 22, 22);
   margin: 5px;
-  color: rgb(214, 183, 183);
+  color: rgb(255, 255, 255);
 }
 
 .submit-button {
   background-color: rgb(8, 8, 8);
-  color: rgb(236, 227, 227);
+  color: rgb(255, 255, 255);
 }
 
 .form-add {
