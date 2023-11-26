@@ -45,7 +45,7 @@ function App() {
   }
 
   function updateItem(id, itemName, quantity) {
-    fetch(`https://knsx75-8080.app/api/list/${id}`, {
+    fetch(`https://knsx75-8080.csb.app/api/list/${id}`, {
         method: "PUT",
         body: JSON.stringify({
             item: itemName,
