@@ -27,7 +27,6 @@ function ShoppingItem({ id, itemName, quantity, deleteItem, updateItem }) {
 
     const EditJsx = (
         <ShoppingForm
-            className="form-edit"
             submitItem={handleUpdate}
             submitButtonText="Update"
             defaultItemName={itemName}
