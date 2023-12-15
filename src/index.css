@@ -6,6 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: larger;
+  background-image: url(./Images/ShoppingListBackground.png);
+  background-size: 1600px 1000px;
 }
 
 code {
