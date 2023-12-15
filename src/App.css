@@ -13,3 +13,7 @@ button {
  margin: 5px 4px 5px;
 }
 
+ul {
+  list-style-type: circle;
+  list-style-position: inside;
+}
