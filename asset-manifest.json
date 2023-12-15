@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/capstone-react-node/static/css/main.28e943bf.css",
+    "main.css": "/capstone-react-node/static/css/main.a73fd955.css",
     "main.js": "/capstone-react-node/static/js/main.54539788.js",
     "static/media/ShoppingListBackground.png": "/capstone-react-node/static/media/ShoppingListBackground.f372e53f60312fc5895a.png",
     "index.html": "/capstone-react-node/index.html",
-    "main.28e943bf.css.map": "/capstone-react-node/static/css/main.28e943bf.css.map",
+    "main.a73fd955.css.map": "/capstone-react-node/static/css/main.a73fd955.css.map",
     "main.54539788.js.map": "/capstone-react-node/static/js/main.54539788.js.map"
   },
   "entrypoints": [
-    "static/css/main.28e943bf.css",
+    "static/css/main.a73fd955.css",
     "static/js/main.54539788.js"
   ]
 }
